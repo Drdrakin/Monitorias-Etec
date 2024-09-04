@@ -1,0 +1,88 @@
+.container {
+    padding: 20px;
+    background-color: #f0f0f0; 
+  }
+  
+.container h2 {
+    color: white;
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black
+}
+
+.section {
+    background-color: grey;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.justifyCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.alignCenter {
+    display: flex;
+    align-items: center;
+    height: 200px; 
+}
+
+.justifyBetweenAlignCenter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+.justifyCenterAlignCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.justifyAround {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+}
+  
+.justifyEvenly {
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+}
+  
+.alignSelfContainer {
+    display: flex;
+    height: 200px;
+    align-items: stretch; 
+}
+  
+.alignSelfStart {
+    align-self: flex-start;
+}
+  
+.alignSelfCenter {
+    align-self: center;
+}
+  
+.alignSelfEnd {
+    align-self: flex-end;
+}

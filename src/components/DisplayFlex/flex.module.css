@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border: 2px solid #ccc;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #2196F3;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+  
